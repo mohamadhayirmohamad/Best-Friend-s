@@ -1,0 +1,60 @@
+
+  
+  .circle-image {
+
+    width: 550px;
+    height: 550px;
+    overflow: hidden;
+  }
+  
+  .circle-image img {
+   
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+  }
+  
+  .bg-light {
+    background-color: #fff8e6 !important;
+  }
+  
+  .image-box img {
+   width: 60px;
+    transition: transform 0.3s ease;
+  }
+  
+.cat-link  {
+  color: aqua;
+}
+
+
+  .image-box img:hover {
+    transform: scale(1.1);
+  }
+  @media (max-width: 768px) {
+    .circle-image {
+
+        width: 450px;
+        height: 450px;
+        overflow: hidden;
+      }
+      
+      .circle-image img {
+       
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+      }
+
+.gap-3{
+    display: flex;
+    justify-content: center;
+}
+
+.image-box img {
+    font-size: 4rem;
+    width: 80px;
+     transition: transform 0.3s ease;
+   }
+
+  }

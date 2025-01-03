@@ -1,0 +1,256 @@
+/* App.css */
+
+/* تنسيق عام */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+  }
+  
+  /* تنسيق شريط التنقل */
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .btn-primary{
+background-color:  #6c63ff;
+  }
+  .navbar-brand {
+    display: flex;
+width: 60px;
+height: 60px;
+margin-left: 20px;
+  }
+    
+.colu{
+    color:  #6c63ff;
+}
+
+
+  .nav-link {
+    color: #000;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  .icona{
+color: #6c63ff;
+width: 50px;
+font-size: 1.5rem;
+
+  }
+
+  .num{
+    font-size: 1.4rem;
+  }
+
+  .nav-link:hover {
+    color: #6c63ff; /* لون بنفسجي */
+  }
+  .nav-link{
+    font-size: 1.1rem;
+  }
+  /* تنسيق الحاوية الرئيسية */
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .main-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  .main-section p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .main-section .btn {
+    margin: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .btn-about {
+    background-color: #6c63ff; /* لون بنفسجي */
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-about:hover {
+    background-color: #5a53cc;
+  }
+  
+  .btn-contact {
+    background-color: #fbbf24; /* لون أصفر */
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-contact:hover {
+    background-color: #e0a619;
+  }
+
+  .text-s{
+    width: 400px;
+  }
+  
+  /* تنسيق الصورة */
+  .image-container {
+    position: relative;
+    left: 300px;
+    width: 550px;
+    height: 550px;
+    margin-top: 2rem;
+
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+ 
+    border-radius: 50%;
+ 
+ 
+  }
+  
+  .image-container::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+   
+  }
+  
+  /* footer  */
+
+
+
+
+
+
+
+
+.frm a {
+  text-decoration: none; 
+  color: #5a53cc;
+}
+
+.frm :hover{color: rgb(255, 196, 0);}
+
+  .text-purple {
+    color: #6f42c1; /* لون الأيقونة */
+  }
+   
+  .bg-purple {
+    background-color: #6f42c1; /* خلفية بنفسجية */
+  }
+  
+  form .form-control {
+    border-radius: 0; /* إزالة الزوايا المستديرة */
+  }
+  
+  form .btn-warning {
+    background-color: #f0ad4e;
+    border: none;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* للتأكد من أن الصورة لا تتعدى حدود الكرت */
+  }
+  
+  .card-img-top {
+    object-fit: cover; /* يجعل الصورة تغطي الكرت */
+    height: 100%; /* ارتفاع الصورة يغطي الكرت */
+    width: 100%; /* عرض الصورة يغطي الكرت */
+  }
+  .custom-input {
+    background: none; /* إزالة الخلفية */
+    border: none; /* إزالة الحواف */
+    border-bottom: 2px solid #fff; /* إضافة خط سفلي */
+    color: white; /* لون النص */
+    outline: none; /* إزالة التحديد الافتراضي */
+    width: 100%; /* ضمان الامتلاء */
+    padding: 5px 0; /* فراغ داخلي علوي وسفلي */
+  }
+  
+  .custom-input:focus {
+    border-bottom: 2px solid #ffcc00; /* تغيير لون الخط السفلي عند التحديد */
+    outline: none; /* إزالة التأثير الافتراضي */
+  }
+  
+  .custom-input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* لون شفاف للنصوص الافتراضية */
+  }
+  
+  /* end footer  */
+
+  @media (max-width: 768px){
+
+    .navbar {
+        padding: 2rem 3rem;
+   
+      }
+
+    .navbar-brand {
+        display: flex;
+    width: 80px;
+    height: 80px;
+    margin-left: 29px;
+      }
+
+      .image-container {
+        position: relative;
+        left: -00px;
+        width: 250px;
+        height: 250px;
+        margin-top: 2rem;
+    
+      }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

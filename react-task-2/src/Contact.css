@@ -1,0 +1,58 @@
+/* Contact Form */
+.contact-us input, .contact-us textarea {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    outline: none;
+    background-color:#fdc843; /* ثابت الخلفية أبيض */
+    color: #000; /* لون النص */
+  }
+  
+  .contact-us input:focus, .contact-us textarea:focus {
+    box-shadow: none;
+    border-color: #ffffff;
+    background-color: #f6ca5c; /* ثابت الخلفية أبيض */
+  }
+  
+  /* Submit Button */
+  .btn-primary {
+    background-color: #6C63FF;
+    border: none;
+  }
+  
+  /* Icons Section */
+  .how-to-reach-us .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* شكل دائري */
+    background-color: #6C63FF; /* خلفية بنفسجية */
+  }
+  
+  .how-to-reach-us .icon-container i {
+    color: #ded720; /* لون الأيقونة أبيض */
+    font-size: 34px !important; /* حجم الأيقونة */
+  }
+  
+
+
+
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-us {
+      padding: 30px;
+    }
+  
+    .how-to-reach-us {
+      text-align: center;
+    }
+  
+    .how-to-reach-us .icon-container {
+      margin: 10px auto;
+    }
+  }
+  
